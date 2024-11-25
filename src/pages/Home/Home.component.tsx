@@ -104,7 +104,10 @@ const Home = () => {
     const canvas = document.getElementById("canvas");
     const rc = rough.canvas(canvas);
 
-    rc.circle(150, 80, 130, { fill: getRandomDonutBase(), fillStyle: "solid" });
+    rc.circle(150, 80, 130, {
+      fill: getRandomDonutBase(),
+      fillStyle: "solid",
+    });
     rc.circle(150, 68, 125, {
       fill: getRandomDonutCover(),
       fillStyle: "solid",
@@ -117,7 +120,6 @@ const Home = () => {
 
   return (
     <>
-      <div></div>
       <canvas id="canvas"></canvas>
       <div className="bg-white/40 px-3 flex items-center justify-center rounded-md py-4">
         <span className="text-black/80 text-center">

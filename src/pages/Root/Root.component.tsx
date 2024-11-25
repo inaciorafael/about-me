@@ -18,6 +18,7 @@ const Root = () => {
       >
         <div className="flex flex-col items-center justify-center">
           <div className="w-full flex flex-col px-5 md:p-0 gap-10 md:max-w-[30%]">
+            <div></div>
             <Outlet />
             <div className="h-5"></div>
           </div>

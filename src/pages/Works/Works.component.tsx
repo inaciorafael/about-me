@@ -1,8 +1,11 @@
+import { Work as WorkComponent } from '../../components'
+
 const Works = () => {
   return (
-    <div>
-      <h1>Workds</h1>
-    </div>
+    <>
+      <h1 className="topic-title">Works</h1>
+      <WorkComponent />
+    </>
   );
 };
 
